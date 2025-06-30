@@ -9,18 +9,33 @@
   margin: 50px auto;
 }
 
-/* p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-} */
-
 div {
   background-color: red;
   color: white;
   font-size: 32px;
   text-align: center;
   font-weight: bold;
-  
+  display: block;
+  margin-bottom: 16px;
+}
+
+p.odd-number{
+  background-color: pink;
+  font-family: Verdana, Dejavu sans, sans-serif;
+}
+
+#numberTwo{
+  background-color: transparent;
+  color: blue;
+  font-size: 36px;
+}
+
+#cooler{
+  font-size: 24px;
+}
+
+#numberFour{
+  background-color: lightgreen;
+  font-size: 24px;
+  font-weight: bold;
 }
