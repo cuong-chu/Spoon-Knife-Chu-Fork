@@ -10,7 +10,7 @@
 }
 
 div {
-  background-color: red;
+  /* background-color: red; */
   color: white;
   font-size: 32px;
   text-align: center;
@@ -74,4 +74,11 @@ p.no{
   background-color: transparent;
   width: 200px;
   height: 400px;
+}
+
+.ancestor{
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  align-items: center;
 }
