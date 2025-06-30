@@ -39,3 +39,27 @@ p.odd-number{
   font-size: 24px;
   font-weight: bold;
 }
+
+p.click-me,
+p.no{
+  font-size: 28px;
+  font-family: Helvetica, 'Times New Roman',sans-serif;
+}
+
+p.click-me{
+  display: inline-block;
+  background-color: black;
+  padding: 8px 12px;
+  margin: 8px 0;
+  color: white;
+}
+
+p.no{
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 8px 0;
+  border: 1px solid;
+  border-color: black;
+  background-color: yellow;
+  color: black;
+}
